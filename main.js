@@ -130,7 +130,7 @@ function loop() {
 
 
 
-    while (balls.length < 20) {
+    while (balls.length < 12) {
         var ball = new Ball(
             random(0, width),
             random(0, height),
