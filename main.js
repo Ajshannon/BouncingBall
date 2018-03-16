@@ -87,6 +87,7 @@ Ball.prototype.update = function () {
             if (distance < this.size + balls[j].size) {
                 this.velY = -(this.velY);
                 this.velX = -(this.velX);
+                break;
                 
             }
             //the last two lines draws the ball again in a different position effectively moving the ball
