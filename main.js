@@ -130,14 +130,14 @@ function loop() {
 
 
 
-    while (balls.length < 5) {
+    while (balls.length < 20) {
         var ball = new Ball(
             random(0, width),
             random(0, height),
             random(-7, 7),
             random(-7, 7),
             'rgb(' + random(0, 255) + ',' + random(0, 255) + ',' + random(0, 255) + ')',
-            random(10, 100)
+            random(10, 40)
         );
         //pushes our ball into an array - as long as there are less than 25 balls on the screen
         balls.push(ball);
